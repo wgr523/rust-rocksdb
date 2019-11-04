@@ -9,7 +9,7 @@ repository = "https://github.com/rust-rocksdb/rust-rocksdb.git"
 keywords = [ "ffi", "rocksdb" ]
 
 build = "build.rs"
-links = "rocksdb"
+links = "rustrocksdb"
 
 [features]
 default = [ "static" ]
