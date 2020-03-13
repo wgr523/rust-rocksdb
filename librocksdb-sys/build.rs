@@ -169,7 +169,7 @@ fn build_rocksdb() {
     config.file("build_version.cc");
 
     config.cpp(true);
-    config.compile("librocksdb.a");
+    config.compile("libprismrocksdb.a");
 }
 
 fn build_snappy() {

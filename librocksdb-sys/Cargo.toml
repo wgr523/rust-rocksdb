@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/rust-rocksdb/rust-rocksdb"
 keywords = [ "bindings", "ffi", "rocksdb" ]
 
-links = "rocksdb"
+links = "prismrocksdb"
 
 [features]
 default = [ "static" ]
